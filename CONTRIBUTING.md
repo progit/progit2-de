@@ -7,6 +7,16 @@ Mit Erzeugen eines Pull-Requests für dieses Repository, stimmen Sie zu, dass Ih
 Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
 Sollten Ihre Änderungen in einer gedruckten Fassung erscheinen, so werden Sie in die Liste der [Mitwirkenden](book/contributors.asc) mit aufgenommen.
 
+<<<<<<< HEAD
+=======
+## Signaling an Issue
+
+Before signaling an issue, please check that there isn't already a similar one in the bug tracking system.
+
+Also, if this issue has been spotted on the git-scm.com site, please cross-check that it is still present in the pdf version. The issue may have already been corrected, but the changes have not been deployed yet.
+
+## Small Corrections
+>>>>>>> 811dffebd4ff1348819f8acc70f954bd4ad65057
 
 ## Weiterführende Hinweise zur deutschen Übersetzung
 
