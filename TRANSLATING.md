@@ -1,26 +1,26 @@
-# Translating Pro Git (2nd Edition)
+#  Pro Git Übersetzung (2. Edition)
 
-The translations are managed in a decentralized way. Each translation team maintains their own project. Each translation is in its own repository, the Pro Git team simply pulls the changes and builds them into the https://git-scm.com website when ready.
+Die Übersetzungen werden dezentral verwaltet. Jedes Übersetzungsteam pflegt sein eigenes Projekt. Jede Übersetzung befindet sich in einem eigenen Repository, das Pro Git-Team zieht einfach die Änderungen und baut sie nach Fertigstellung in die Website https://git-scm.com ein.
 
-## General guidance for translating Pro Git
+## Allgemeine Hinweise zur Übersetzung von Pro Git
 
-Pro Git is a book about a technical tool, therefore translating it is difficult compared to a non-technical translation.
+Pro Git ist ein Buch über ein technisches Werkzeug, daher ist die Übersetzung im Vergleich zu einer nicht-technischen Übersetzung schwierig.
 
-The following are guidelines to help you on your way:
-* Before you begin, read the whole Git Pro book in English, so that you're aware of the content, and are familiar with the style used.
-* Ensure you have a good working knowledge of git, so that explaining the technical terms is doable.
-* Stick to a common style and format for the translation.
-* Be sure to read and understand the basics of [Asciidoc formatting](https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/). Not following the asciidoc syntax can lead to problems with building/compilation of the pdf, epub and html files needed for the book.
+Die folgenden Richtlinien sollen Ihnen auf Ihrem Weg helfen:
+* Bevor Sie beginnen, lesen Sie das gesamte Git Pro Buch auf Englisch, damit Sie den Inhalt kennen und mit dem verwendeten Stil vertraut werden.
+* Stellen Sie sicher, dass Sie über gute Grundkenntnisse in git verfügen, so dass die Erklärung der Fachbegriffe möglich ist.
+* Halten Sie sich an einen gemeinsamen Stil und ein gemeinsames Format für die Übersetzung.
+* Lesen und verstehen Sie unbedingt die Grundlagen der [Asciidoc-Formatierung](https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/). Die Nichteinhaltung der asciidoc-Syntax kann zu Problemen beim Erstellen/Kompilieren der für das Buch benötigten pdf-, epub- und html-Dateien führen.
 
-## Translating the book to another language
+## Das Buch in eine andere Sprache übersetzen
 
-### Helping with a existing project
+### Mithilfe bei einem bestehenden Projekt
 
-* Check for an already existing project in the following table.
-* Go to the project's page on GitHub.
-* Open an issue, introduce yourself and ask where you can help.
+* Suchen Sie in der folgenden Tabelle nach einem bereits vorhandenen Projekt.
+* Gehen Sie auf die GitHub-Projektseite.
+* Eröffnen Sie ein Issue, stellen Sie sich vor und fragen Sie, wo Sie helfen können.
 
-| Language     | GitHub page     |
+| Sprache     | GitHub Projektseite     |
 | :------------- | :------------- |
 | العربية | [progit2-ar/progit2](https://github.com/progit2-ar/progit2) |
 | Беларуская  | [progit/progit2-be](https://github.com/progit/progit2-be) |
@@ -51,55 +51,55 @@ The following are guidelines to help you on your way:
 | 简体中文  | [progit/progit2-zh](https://github.com/progit/progit2-zh) |
 | 正體中文  | [progit/progit2-zh-tw](https://github.com/progit/progit2-zh-tw) |
 
-### Starting a new translation
+### Eine neue Übersetzung beginnen
 
-If there is no project for your language, you can start your own translation.
+Wenn es noch kein Projekt für Ihre Sprache gibt, können Sie eine eigene Übersetzung starten.
 
-Base your work on the second edition of the book, available [here](https://github.com/progit/progit2). To do so:
- 1. Pick the correct [ISO 639 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for your language.
- 1. Create a [GitHub organization](https://help.github.com/articles/creating-a-new-organization-from-scratch/), for example: `progit2-[your code]` on GitHub.
- 1. Create a project ``progit2``.
- 1. Copy the structure of progit/progit2 (this project) in your project and start translating.
+Grundlage Ihrer Arbeit ist die zweite Ausgabe des Buches, die [hier](https://github.com/progit/progit2) verfügbar ist. So sollten Sie vorgehen:
+ 1. Wählen Sie den richtigen [ISO 639-Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) für Ihre Sprache.
+ 1. Erstellen Sie eine [GitHub-Organisation](https://help.github.com/articles/creating-a-new-organization-from-scratch/), z.B. `progit2-[your code]` auf GitHub.
+ 1. Erstellen Sie ein Projekt ``progit2``.
+ 1. Kopieren Sie die Struktur von progit/progit2 (dieses Projekt) in Ihr Projekt und beginnen Sie mit der Übersetzung.
 
-### Updating the status of your translation
+### Den Bearbeitungsstatus Ihrer Übersetzung aktualisieren
 
-On https://git-scm.com, the translations are divided into three categories. Once you have reached one of these levels, contact the maintainers of https://git-scm.com/ so that they can pull the changes.
+Auf https://git-scm.com sind die Übersetzungen in drei Kategorien eingeteilt. Sobald Sie eine dieser Levels erreicht haben, kontaktieren Sie die Betreuer von https://git-scm.com/, damit sie die Änderungen übernehmen können.
 
-| Category | Completion     |
+| Kategorie | fertiggestellt     |
 | :------------- | :------------- |
-| Translation started for | Introduction translated, not much else. |
-| Partial translations available in | up to chapter 6 has been translated. |
-| Full translation available in |the book is (almost) fully translated. |
+| Übersetzung begonnen für | Einführung übersetzt, sonst nicht viel. |
+| unvollständige Übersetzungen verfügbar in | übersetzt bis Kapitel 6. |
+| Vollständige Übersetzung verfügbar in | das Buch ist (fast) vollständig übersetzt. |
 
-## Continuous integration with Travis CI
+## Kontinuierliche Integration mit Travis CI
 
-Travis CI is a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) service that integrates with GitHub. Travis CI is used to ensure that a pull-request doesn't break the build or compilation. Travis CI can also provide compiled versions of the book.
+Travis CI ist ein Dienst für [kontinuierliche Integration](https://en.wikipedia.org/wiki/Continuous_integration), der in GitHub integriert werden kann. Travis CI wird verwendet, um sicherzustellen, dass eine Pull-Anforderung den Build oder die Kompilierung nicht unterbricht. Travis CI kann auch kompilierte Versionen des Buches zur Verfügung stellen.
 
-Setting up Travis CI requires administrative control over the repository.
+Die Einrichtung von Travis CI erfordert eine administrative Kontrolle über das Repository.
 
-### Registering for Travis continuous integration
+### Registrierung für die kontinuierliche Integration von Travis
 
-1. Register a Travis account [here](https://travis-ci.org/).
-1. Register your project in Travis.
-Please refer to the [Travis documentation](https://docs.travis-ci.com/) for more information.
+1. Ein Travis-Konto [hier](https://travis-ci.org/) einrichten.
+1. Registrieren Sie Ihr Projekt in Travis.
+Weitere Informationen finden Sie in der [Travis-Dokumentation](https://docs.travis-ci.com/).
 
-### Setting up your repository for continuous integration
+### Einrichten Ihres Repositorys für eine kontinuierliche Integration
 
-Travis CI works by scanning your project's root directory for a file named `.travis.yml` and following the 'recipe' that it contains. The good news is: there's already a working `.travis.yml` file in the Pro Git 2 source [here](https://raw.githubusercontent.com/progit/progit2-pub/master/travis.yml).
-Copy that file, and put it in your working directory. Commit the .yml file and push it to your translation repository; that should fire up a compilation and a check of the book's contents.
+Travis CI scannt das Stammverzeichnis Ihres Projekts nach einer Datei mit dem Namen `.travis.yml` und folgt dem darin enthaltenen „Rezept“. Die gute Nachricht ist: Es gibt bereits eine funktionierende `.travis.yml` Datei im Pro Git 2 Quellcode [hier](https://raw.githubusercontent.com/progit/progit2-pub/master/travis.yml).
+Kopieren Sie diese Datei und legen Sie sie in Ihr Arbeitsverzeichnis. Commitieren Sie die .yml-Datei und verschieben Sie sie in Ihr Übersetzungs-Repository; das sollte eine Kompilierung und eine Überprüfung des Inhalts des Buches auslösen.
 
-## Setting up a publication chain for e-books
+## Einrichtung einer Publikationskette für E-Books
 
-This is a technical task, please ping @jnavila to get started with epub publication.
+Das ist eine technische Sache, bitte kontaktieren Sie @jnavila, um mit der Veröffentlichung von epub zu beginnen.
 
-## Beyond Pro Git
+## Abgesehen von Pro Git
 
-Translating the book is the first step. Once this is finished, you could consider translating the user interface of Git itself.
+Die Übersetzung des Buches ist der erste Schritt. Sobald das fertig ist, können Sie die Benutzeroberfläche von Git selbst übersetzen.
 
-This task requires a more technical knowledge of the tool than the book. Hopefully, after having translated the full book content, you can understand the terms used in the application. If you feel technically up to the task, the repo is [here](https://github.com/git-l10n/git-po) and you just have to follow the [guide](https://github.com/git-l10n/git-po/blob/master/po/README).
+TDiese Aufgabe erfordert ein besseres technisches Wissen über das Tool als das Buch. Hoffentlich können Sie nach der Übersetzung des gesamten Buchinhalts die in der Anwendung verwendeten Begriffe verstehen. Wenn Sie sich der Aufgabe technisch gewachsen fühlen, ist das Repo [hier](https://github.com/git-l10n/git-po) und Sie müssen nur der [Anleitung](https://github.com/git-l10n/git-po/blob/master/po/README).
 
-Beware though that
+Beachten Sie jedoch, dass
 
- * you'll need to use more specific tools to manage localization po files (such as editing them with [poedit](https://poedit.net/) and merging them. You might need to compile git in order to check your work.
- * a basic knowledge of how translating applications works is required, which is significantly different from translating books.
- * the core Git project uses more stringent [procedures](https://github.com/git-l10n/git-po/blob/master/Documentation/SubmittingPatches) to accept contributions, be sure to abide by them.
+ * Sie speziellere Tools verwenden müssen, um die Lokalisierungs-Po-Dateien zu handhaben (z.B. um sie mit [poedit](https://poedit.net/) zu bearbeiten) und sie zusammenzuführen. Möglicherweise müssen Sie git kompilieren, um Ihre Arbeit zu überprüfen.
+ * ein grundlegendes Verständnis über die Übersetzung von Anwendungen erforderlich ist, die sich deutlich von der Übersetzung von Büchern unterscheidet.
+ * das Core-Projekt Git strengere [Vorschriften](https://github.com/git-l10n/git-po/blob/master/Documentation/SubmittingPatches) für die Annahme von Beiträgen anwendet. Achten Sie darauf, diese einzuhalten.
