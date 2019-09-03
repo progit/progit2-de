@@ -96,7 +96,7 @@ Das ist eine technische Sache, bitte kontaktieren Sie @jnavila, um mit der Verö
 
 Die Übersetzung des Buches ist der erste Schritt. Sobald das fertig ist, können Sie die Benutzeroberfläche von Git selbst übersetzen.
 
-TDiese Aufgabe erfordert ein besseres technisches Wissen über das Tool als das Buch. Hoffentlich können Sie nach der Übersetzung des gesamten Buchinhalts die in der Anwendung verwendeten Begriffe verstehen. Wenn Sie sich der Aufgabe technisch gewachsen fühlen, ist das Repo [hier](https://github.com/git-l10n/git-po) und Sie müssen nur der [Anleitung](https://github.com/git-l10n/git-po/blob/master/po/README).
+Diese Aufgabe erfordert ein besseres technisches Wissen über das Tool als das Buch. Hoffentlich können Sie nach der Übersetzung des gesamten Buchinhalts die in der Anwendung verwendeten Begriffe verstehen. Wenn Sie sich der Aufgabe technisch gewachsen fühlen, ist das Repo [hier](https://github.com/git-l10n/git-po) und Sie müssen nur der [Anleitung](https://github.com/git-l10n/git-po/blob/master/po/README).
 
 Beachten Sie jedoch, dass
 
