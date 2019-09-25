@@ -48,7 +48,7 @@
       "1-distributed-git.asc": 100,
       "sections/contributing.asc": 100,
       "sections/distributed-workflows.asc": 100,
-      "sections/maintaining.asc": 0
+      "sections/maintaining.asc": 100
     },
     "06-github": {
       "1-github.asc": 100,
@@ -97,7 +97,7 @@
       "sections/import-tfs.asc": 100
     },
     "10-git-internals": {
-      "1-git-internals.asc": 0,
+      "1-git-internals.asc": 100,
       "sections/environment.asc": 0,
       "sections/maintenance.asc": 0,
       "sections/objects.asc": 0,
