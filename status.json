@@ -115,8 +115,8 @@
       "sections/jetbrainsides.asc": 100,
       "sections/powershell.asc": 0,
       "sections/sublimetext.asc": 100,
-      "sections/visualstudio.asc": 0,
-      "sections/visualstudiocode.asc": 0,
+      "sections/visualstudio.asc": 100,
+      "sections/visualstudiocode.asc": 100,
       "sections/zsh.asc": 100
     },
     "B-embedding-git": {
