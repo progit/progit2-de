@@ -57,7 +57,7 @@ Wenn es noch kein Projekt für Ihre Sprache gibt, können Sie eine eigene Übers
 
 Grundlage Ihrer Arbeit ist die zweite Ausgabe des Buches, die [hier](https://github.com/progit/progit2) verfügbar ist. So sollten Sie vorgehen:
  1. Wählen Sie den richtigen [ISO 639-Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) für Ihre Sprache.
- 1. Erstellen Sie eine [GitHub-Organisation](https://help.github.com/articles/creating-a-new-organization-from-scratch/), z.B. `progit2-[your code]` auf GitHub.
+ 1. Erstellen Sie eine [GitHub-Organisation](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/creating-a-new-organization-from-scratch), z.B. `progit2-[Ihr_Code]` auf GitHub.
  1. Erstellen Sie ein Projekt ``progit2``.
  1. Kopieren Sie die Struktur von progit/progit2 (dieses Projekt) in Ihr Projekt und beginnen Sie mit der Übersetzung.
 
