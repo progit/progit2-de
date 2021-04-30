@@ -44,6 +44,7 @@ Die folgenden Richtlinien sollen Ihnen auf Ihrem Weg helfen:
 | Русский   | [progit/progit2-ru](https://github.com/progit/progit2-ru) |
 | Slovenščina  | [progit/progit2-sl](https://github.com/progit/progit2-sl) |
 | Српски   | [progit/progit2-sr](https://github.com/progit/progit2-sr) |
+| Svenska | [progit2-sv/progit2](https://github.com/progit2-sv/progit2) |
 | Tagalog   | [progit2-tl/progit2](https://github.com/progit2-tl/progit2) |
 | Türkçe   | [progit/progit2-tr](https://github.com/progit/progit2-tr) |
 | Українська| [progit/progit2-uk](https://github.com/progit/progit2-uk) |
@@ -57,7 +58,7 @@ Wenn es noch kein Projekt für Ihre Sprache gibt, können Sie eine eigene Übers
 
 Grundlage Ihrer Arbeit ist die zweite Ausgabe des Buches, die [hier](https://github.com/progit/progit2) verfügbar ist. So sollten Sie vorgehen:
  1. Wählen Sie den richtigen [ISO 639-Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) für Ihre Sprache.
- 1. Erstellen Sie eine [GitHub-Organisation](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/creating-a-new-organization-from-scratch), z.B. `progit2-[Ihr_Code]` auf GitHub.
+ 1. Erstellen Sie eine [GitHub-Organisation](https://docs.github.com/de/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch), z.B. `progit2-[Ihr_Code]` auf GitHub.
  1. Erstellen Sie ein Projekt ``progit2``.
  1. Kopieren Sie die Struktur von progit/progit2 (dieses Projekt) in Ihr Projekt und beginnen Sie mit der Übersetzung.
 
