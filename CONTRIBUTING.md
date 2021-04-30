@@ -1,6 +1,6 @@
 # Contributing to Pro Git (2nd Edition)
 
-## Licensing
+## Licensing your work to us
 
 When you open a pull request, you agree to provide your work under the [project license](LICENSE.asc).
 Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
@@ -38,7 +38,6 @@ Use the included symbols wherever possible.
 2. Add a "slice" to your page.
 Name the slice so that it matches the destination PNG filename, relative from the root of the source directory.
 3. Set your slice to export at "800w".
-
 
 ## Translations
 
