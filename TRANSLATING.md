@@ -76,7 +76,7 @@ Auf https://git-scm.com sind die Übersetzungen in drei Kategorien eingeteilt. S
 
 GitHub Actions ist ein [Continuous Integration](https://de.wikipedia.org/wiki/Kontinuierliche_Integration)-Dienst, der in GitHub integriert ist. GitHub Actions wird verwendet, um sicherzustellen, dass ein Pull-Request den Build oder die Kompilierung nicht unterbricht. GitHub Actions kann auch kompilierte Versionen des Buchs bereitstellen.
 
-Die Konfiguration für GitHub-Aktionen ist im Verzeichnis `.github/workflows` enthalten, und wenn Sie den `master`-Zweig des Root-Repositorys einbinden, erhalten Sie sie kostenlos.
+Die Konfiguration für GitHub-Aktionen ist im Verzeichnis `.github/workflows` enthalten, und wenn Sie den `main`-Zweig des Root-Repositorys einbinden, erhalten Sie sie kostenlos.
 Wenn Sie jedoch Ihr Übersetzungsrepo erstellt haben, indem Sie das Root-Repository _geforked_ haben, müssen Sie einen zusätzlichen Schritt ausführen (wenn Sie keinen Fork gemacht haben, können Sie diesen Teil überspringen).
 GitHub geht davon aus, dass Forks verwendet werden, um zu dem Repository beizutragen, aus dem sie geforked wurden. Sie müssen also die Registerkarte „Aktionen“ in Ihrem geforktem Repository aufrufen und auf die Schaltfläche „Ich verstehe meine Workflows“ klicken, um die Aktionen zuzulassen.
 
