@@ -15,3 +15,4 @@ gem 'thread_safe', '0.3.6'
 gem 'html-proofer', '3.19.2'
 gem 'epubcheck-ruby', '4.2.6.0'
 gem 'kindlegen', '3.1.1'
+
