@@ -10,7 +10,7 @@ Die folgenden Richtlinien sollen Ihnen auf Ihrem Weg helfen:
 * Bevor Sie beginnen, lesen Sie das gesamte Git Pro Buch auf Englisch, damit Sie den Inhalt kennen und mit dem verwendeten Stil vertraut werden.
 * Stellen Sie sicher, dass Sie über gute Grundkenntnisse in git verfügen, so dass die Erklärung der Fachbegriffe möglich ist.
 * Halten Sie sich an einen gemeinsamen Stil und ein gemeinsames Format für die Übersetzung.
-* Lesen und verstehen Sie unbedingt die Grundlagen der [Asciidoc-Formatierung](https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/). Die Nichteinhaltung der asciidoc-Syntax kann zu Problemen beim Erstellen/Kompilieren der für das Buch benötigten pdf-, epub- und html-Dateien führen.
+* Lesen und verstehen Sie unbedingt die Grundlagen der [Asciidoc-Formatierung](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/). Die Nichteinhaltung der asciidoc-Syntax kann zu Problemen beim Erstellen/Kompilieren der für das Buch benötigten pdf-, epub- und html-Dateien führen.
 
 ## Das Buch in eine andere Sprache übersetzen
 
@@ -58,7 +58,7 @@ Wenn es noch kein Projekt für Ihre Sprache gibt, können Sie eine eigene Übers
 
 Grundlage Ihrer Arbeit ist die zweite Ausgabe des Buches, die [hier](https://github.com/progit/progit2) verfügbar ist. So sollten Sie vorgehen:
  1. Wählen Sie den richtigen [ISO 639-Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) für Ihre Sprache.
- 1. Erstellen Sie eine [GitHub-Organisation](https://docs.github.com/de/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch), z.B. `progit2-[Ihr_Code]` auf GitHub.
+ 1. Erstellen Sie eine [GitHub-Organisation](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch), z.B. `progit2-[Ihr_Code]` auf GitHub.
  1. Erstellen Sie ein Projekt ``progit2``.
  1. Kopieren Sie die Struktur von progit/progit2 (dieses Projekt) in Ihr Projekt und beginnen Sie mit der Übersetzung.
 
@@ -88,7 +88,7 @@ Das ist eine technische Sache, bitte kontaktieren Sie @jnavila, um mit der Verö
 
 Die Übersetzung des Buches ist der erste Schritt. Sobald das fertig ist, können Sie die Benutzeroberfläche von Git selbst übersetzen.
 
-Diese Aufgabe erfordert ein besseres technisches Wissen über das Tool als das Buch. Hoffentlich können Sie nach der Übersetzung des gesamten Buchinhalts die in der Anwendung verwendeten Begriffe verstehen. Wenn Sie sich der Aufgabe technisch gewachsen fühlen, ist das Repo [hier](https://github.com/git-l10n/git-po) und Sie müssen nur dieser [Anleitung](https://github.com/git-l10n/git-po/blob/master/po/README) folgen.
+Diese Aufgabe erfordert ein besseres technisches Wissen über das Tool als das Buch. Hoffentlich können Sie nach der Übersetzung des gesamten Buchinhalts die in der Anwendung verwendeten Begriffe verstehen. Wenn Sie sich der Aufgabe technisch gewachsen fühlen, ist das Repo [hier](https://github.com/git-l10n/git-po) und Sie müssen nur dieser [Anleitung](https://github.com/git-l10n/git-po/blob/master/po/README.md) folgen.
 
 Beachten Sie jedoch, dass
 
