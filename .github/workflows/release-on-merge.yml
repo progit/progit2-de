@@ -27,7 +27,7 @@ jobs:
         echo Computing next tag number
         LASTPATCH=$(git describe --tags | cut -d- -f1 | cut -d. -f3)
         PATCH=$(($LASTPATCH+1))
-        echo "::set-output name=tagname::2.1.${PATCH}"
+        echo "tagname=2.1.${PATCH}" >> $GITHUB_OUTPUT
 
     - name: Create release
       uses: ncipollo/release-action@v1
@@ -35,4 +35,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ steps.compute-tag.outputs.tagname }}
         commit: main
-        artifacts: './progit.epub,./progit.mobi,./progit.pdf,./progit.html'
+        artifacts: './progit.epub,./progit.fb2.zip,./progit.mobi,./progit.pdf,./progit.html'
