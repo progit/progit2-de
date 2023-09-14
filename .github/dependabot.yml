@@ -13,6 +13,6 @@ updates:
       interval: "daily" # Checks on Monday through Friday.
     # Set default reviewer and labels
     reviewers:
-      - "ben"
+      - "pastatopf"
     labels:
       - "dependabot"
