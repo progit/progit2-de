@@ -6,19 +6,19 @@ Die Übersetzungen werden dezentral verwaltet. Jedes Übersetzungsteam pflegt se
 
 Pro Git ist ein Buch über ein technisches Werkzeug, daher ist die Übersetzung im Vergleich zu einer nicht-technischen Übersetzung schwierig.
 
-Die folgenden Richtlinien sollen Ihnen auf Ihrem Weg helfen:
-* Bevor Sie beginnen, lesen Sie das gesamte Git Pro Buch auf Englisch, damit Sie den Inhalt kennen und mit dem verwendeten Stil vertraut werden.
-* Stellen Sie sicher, dass Sie über gute Grundkenntnisse in git verfügen, so dass die Erklärung der Fachbegriffe möglich ist.
-* Halten Sie sich an einen gemeinsamen Stil und ein gemeinsames Format für die Übersetzung.
-* Lesen und verstehen Sie unbedingt die Grundlagen der [Asciidoc-Formatierung](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/). Die Nichteinhaltung der asciidoc-Syntax kann zu Problemen beim Erstellen/Kompilieren der für das Buch benötigten pdf-, epub- und html-Dateien führen.
+Die folgenden Richtlinien sollen dir auf deinem Weg helfen:
+* Bevor du beginnst, lies das gesamte Git Pro Buch auf Englisch, damit du den Inhalt kennst und mit dem verwendeten Stil vertraut wirst.
+* Stelle sicher, dass du über gute Grundkenntnisse in git verfügst, so dass die Erklärung der Fachbegriffe möglich ist.
+* Halte dich an einen gemeinsamen Stil und ein gemeinsames Format für die Übersetzung.
+* Lese und verstehe unbedingt die Grundlagen der [Asciidoc-Formatierung](https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/). Die Nichteinhaltung der asciidoc-Syntax kann zu Problemen beim Erstellen/Kompilieren der für das Buch benötigten pdf-, epub- und html-Dateien führen.
 
 ## Das Buch in eine andere Sprache übersetzen
 
 ### Mithilfe bei einem bestehenden Projekt
 
-* Suchen Sie in der folgenden Tabelle nach einem bereits vorhandenen Projekt.
-* Gehen Sie auf die GitHub-Projektseite.
-* Eröffnen Sie ein Issue, stellen Sie sich vor und fragen Sie, wo Sie helfen können.
+* Suche in der folgenden Tabelle nach einem bereits vorhandenen Projekt.
+* Gehe auf die GitHub-Projektseite.
+* Eröffne ein Issue, stelle dich vor und frage, wo du helfen kannst.
 
 | Sprache     | GitHub Projektseite     |
 | :------------- | :------------- |
@@ -54,17 +54,17 @@ Die folgenden Richtlinien sollen Ihnen auf Ihrem Weg helfen:
 
 ### Eine neue Übersetzung beginnen
 
-Wenn es noch kein Projekt für Ihre Sprache gibt, können Sie eine eigene Übersetzung starten.
+Wenn es noch kein Projekt für deine Sprache gibt, kannst du eine eigene Übersetzung starten.
 
-Grundlage Ihrer Arbeit ist die zweite Ausgabe des Buches, die [hier](https://github.com/progit/progit2) verfügbar ist. So sollten Sie vorgehen:
- 1. Wählen Sie den richtigen [ISO 639-Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) für Ihre Sprache.
- 1. Erstellen Sie eine [GitHub-Organisation](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch), z.B. `progit2-[Ihr_Code]` auf GitHub.
- 1. Erstellen Sie ein Projekt ``progit2``.
- 1. Kopieren Sie die Struktur von progit/progit2 (dieses Projekt) in Ihr Projekt und beginnen Sie mit der Übersetzung.
+Grundlage deiner Arbeit ist die zweite Ausgabe des Buches, die [hier](https://github.com/progit/progit2) verfügbar ist. So solltest du vorgehen:
+ 1. Wähle den richtigen [ISO 639-Code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) für deine Sprache.
+ 1. Erstelle eine [GitHub-Organisation](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch), z.B. `progit2-[Ihr_Code]` auf GitHub.
+ 1. Erstelle ein Projekt ``progit2``.
+ 1. Kopiere die Struktur von progit/progit2 (dieses Projekt) in dein Projekt und beginne mit der Übersetzung.
 
-### Den Bearbeitungsstatus Ihrer Übersetzung aktualisieren
+### Den Bearbeitungsstatus deiner Übersetzung aktualisieren
 
-Auf https://git-scm.com sind die Übersetzungen in drei Kategorien eingeteilt. Sobald Sie eine dieser Levels erreicht haben, kontaktieren Sie die Betreuer von https://git-scm.com/, damit sie die Änderungen übernehmen können.
+Auf https://git-scm.com sind die Übersetzungen in drei Kategorien eingeteilt. Sobald du eine dieser Levels erreicht hast, kontaktiere die Betreuer von https://git-scm.com/, damit sie die Änderungen übernehmen können.
 
 | Kategorie | fertiggestellt     |
 | :------------- | :------------- |
@@ -76,22 +76,22 @@ Auf https://git-scm.com sind die Übersetzungen in drei Kategorien eingeteilt. S
 
 GitHub Actions ist ein [Continuous Integration](https://de.wikipedia.org/wiki/Kontinuierliche_Integration)-Dienst, der in GitHub integriert ist. GitHub Actions wird verwendet, um sicherzustellen, dass ein Pull-Request den Build oder die Kompilierung nicht unterbricht. GitHub Actions kann auch kompilierte Versionen des Buchs bereitstellen.
 
-Die Konfiguration für GitHub-Aktionen ist im Verzeichnis `.github/workflows` enthalten, und wenn Sie den `main`-Branch des Root-Repositorys einbinden, erhalten Sie sie kostenlos.
-Wenn Sie jedoch Ihr Übersetzungsrepo erstellt haben, indem Sie das Root-Repository _geforked_ haben, müssen Sie einen zusätzlichen Schritt ausführen (wenn Sie keinen Fork gemacht haben, können Sie diesen Teil überspringen).
-GitHub geht davon aus, dass Forks verwendet werden, um zu dem Repository beizutragen, aus dem sie geforked wurden. Sie müssen also die Registerkarte „Aktionen“ in Ihrem geforktem Repository aufrufen und auf die Schaltfläche „Ich verstehe meine Workflows“ klicken, um die Aktionen zuzulassen.
+Die Konfiguration für GitHub-Aktionen ist im Verzeichnis `.github/workflows` enthalten, und wenn du den `main`-Branch des Root-Repositorys einbindest, erhältst du sie kostenlos.
+Wenn du jedoch dein Übersetzungsrepo erstellt hast, indem du das Root-Repository _geforked_ hast, musst di einen zusätzlichen Schritt ausführen (wenn du keinen Fork gemacht hast, kannst du diesen Teil überspringen).
+GitHub geht davon aus, dass Forks verwendet werden, um zu dem Repository beizutragen, aus dem sie geforked wurden. Du musst also die Registerkarte „Aktionen“ in deinem geforktem Repository aufrufen und auf die Schaltfläche „Ich verstehe meine Workflows“ klicken, um die Aktionen zuzulassen.
 
-## Einrichtung einer Publikationskette für E-Books
+## Einrichtung einer Veröffentlichungs-Pipelne für E-Books
 
-Das ist eine technische Sache, bitte kontaktieren Sie @jnavila, um mit der Veröffentlichung von epub zu beginnen.
+Das ist eine technische Sache, bitte kontaktiere @jnavila, um mit der Veröffentlichung von epub zu beginnen.
 
 ## Abgesehen von Pro Git
 
-Die Übersetzung des Buches ist der erste Schritt. Sobald das fertig ist, können Sie die Benutzeroberfläche von Git selbst übersetzen.
+Die Übersetzung des Buches ist der erste Schritt. Sobald das fertig ist, kannst du die Benutzeroberfläche von Git selbst übersetzen.
 
-Diese Aufgabe erfordert ein besseres technisches Wissen über das Tool als das Buch. Hoffentlich können Sie nach der Übersetzung des gesamten Buchinhalts die in der Anwendung verwendeten Begriffe verstehen. Wenn Sie sich der Aufgabe technisch gewachsen fühlen, ist das Repo [hier](https://github.com/git-l10n/git-po) und Sie müssen nur dieser [Anleitung](https://github.com/git-l10n/git-po/blob/master/po/README.md) folgen.
+Diese Aufgabe erfordert ein besseres technisches Wissen über das Tool als das Buch. Hoffentlich kannst du nach der Übersetzung des gesamten Buchinhalts die in der Anwendung verwendeten Begriffe verstehen. Wenn du dich der Aufgabe technisch gewachsen fühlst, ist das Repo [hier](https://github.com/git-l10n/git-po) und du musst nur dieser [Anleitung](https://github.com/git-l10n/git-po/blob/master/po/README.md) folgen.
 
-Beachten Sie jedoch, dass
+Beachte jedoch, dass
 
- * Sie speziellere Tools verwenden müssen, um die Lokalisierungs-Po-Dateien zu handhaben (z.B. um sie mit [poedit](https://poedit.net/) zu bearbeiten) und sie zusammenzuführen. Möglicherweise müssen Sie git kompilieren, um Ihre Arbeit zu überprüfen.
+ * du speziellere Tools verwenden musst, um die Lokalisierungs-Po-Dateien zu handhaben (z.B. um sie mit [poedit](https://poedit.net/) zu bearbeiten) und sie zusammenzuführen. Möglicherweise musst du git kompilieren, um deine Arbeit zu überprüfen.
  * ein grundlegendes Verständnis über die Übersetzung von Anwendungen erforderlich ist, die sich deutlich von der Übersetzung von Büchern unterscheidet.
- * das Core-Projekt Git strengere [Vorschriften](https://github.com/git-l10n/git-po/blob/master/Documentation/SubmittingPatches) für die Annahme von Beiträgen anwendet. Achten Sie darauf, diese einzuhalten.
+ * das Core-Projekt Git strengere [Vorschriften](https://github.com/git-l10n/git-po/blob/master/Documentation/SubmittingPatches) für die Annahme von Beiträgen anwendet. Achte darauf, diese einzuhalten.
